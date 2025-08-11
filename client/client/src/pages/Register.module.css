@@ -47,18 +47,17 @@
 
 .registerTitle::after {
   content: 'Create your account and join SkillWallah';
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  position: static; /* fixed or absolute ki zarurat nahi */
+  display: block; /* nayi line me le aayega ✅ */
   font-size: 1rem;
   font-weight: 400;
   color: #b8b8b8;
   background: none;
   -webkit-text-fill-color: #b8b8b8;
   margin-top: 0.5rem;
-  white-space: nowrap;
+  text-align: center;
 }
+
 
 .registerForm {
   background: rgba(26, 26, 26, 0.9);
