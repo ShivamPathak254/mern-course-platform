@@ -64,7 +64,6 @@ import axios from "axios";
 import HeroSection from "../pages/HeroSection";
 import CourseCard from "../pages/CourseCard";
 import Footer from "./Footer";
-
 import "./Dashboard.css";
 
 const Dashboard = () => {

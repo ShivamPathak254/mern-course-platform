@@ -12,7 +12,10 @@ const CourseDetails = () => {
   useEffect(() => {
     const fetchCourse = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/courses/${id}`);
+       const res = await axios.get(`https://mern-course-platform-2.onrender.com/api/courses/${id}`);
+       console.log("Fetching from:", `https://mern-course-platform-2.onrender.com/api/courses/${id}`);
+
+
         setCourse(res.data);
       } catch (err) {
         console.error("Error fetching course", err);
