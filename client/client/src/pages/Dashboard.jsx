@@ -76,7 +76,8 @@ const Dashboard = () => {
     // Fetch from backend API
     const fetchCourses = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/courses");
+        const res = await axios.get("https://mern-course-platform-2.onrender.com/api/courses");
+
         setCourses(res.data); // assumes API returns an array of courses
       } catch (err) {
         console.error("Error fetching courses:", err);

@@ -12,15 +12,20 @@ const Register = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      await axios.post('http://localhost:5000/api/auth/register', form);
-      alert('Registered successfully!');
-      navigate('/login');
-    } catch (err) {
-      alert('Registration failed!');
-    }
-  };
+  e.preventDefault();
+  try {
+    const res = await axios.post(
+      'https://mern-course-platform-2.onrender.com/api/auth/register',
+      form
+    );
+    alert('Registered successfully!');
+    navigate('/login');
+  } catch (err) {
+    console.error(err.response?.data || err.message);
+    alert('Registration failed!');
+  }
+};
+
 
   return (
     <div className={styles.registerContainer}>
