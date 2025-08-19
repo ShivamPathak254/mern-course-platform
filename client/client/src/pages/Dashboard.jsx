@@ -94,9 +94,9 @@ const Dashboard = () => {
       <HeroSection user={user} onUploadClick={() => navigate("/upload")} />
 
       <section className="container my-5 text-center about-section">
-        <h2 className="fw-semibold mb-3">About LearnHub</h2>
+        <h2 className="fw-semibold mb-3">About SkillWallah</h2>
         <p className="text-muted fs-5">
-          LearnHub is India’s premier online learning platform designed for future developers and tech creators.
+          SkillWallah is India’s premier online learning platform designed for future developers and tech creators.
           We offer project-based courses in full stack development, including technologies like React, Node.js, MongoDB, and more.
           Whether you're a beginner starting with HTML or an advanced learner diving into backend APIs, LearnHub has curated content for every step of your journey.
           Instructors can easily upload their own courses and connect with a vibrant learning community.

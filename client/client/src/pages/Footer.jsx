@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-content">
           {/* Brand Section */}
           <div className="footer-brand">
-            <h3 className="brand-name">LearnHub</h3>
+            <h3 className="brand-name">SkillWallah</h3>
             <p className="brand-tagline">Crafted with 💙</p>
           </div>
 
@@ -66,7 +66,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="footer-bottom">
           <div className="copyright">
-            <p>© {new Date().getFullYear()} LearnHub. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} SkillWallah . All rights reserved.</p>
           </div>
           <div className="footer-links">
             <a href="#privacy" className="footer-link">Privacy Policy</a>
