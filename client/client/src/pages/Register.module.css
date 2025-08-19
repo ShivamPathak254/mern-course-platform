@@ -46,7 +46,7 @@
 }
 
 .registerTitle::after {
-  content: 'Create your account and join SkillWallah';
+  content: 'Create your account and join EduNova';
   position: static; /* fixed or absolute ki zarurat nahi */
   display: block; /* nayi line me le aayega ✅ */
   font-size: 1rem;

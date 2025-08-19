@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img src={logo} alt="Logo" className="navbar-logo" />
-          <span>SkillWallah</span>
+          <span>EduNova</span>
         </Link>
 
         <div className="collapse navbar-collapse">
