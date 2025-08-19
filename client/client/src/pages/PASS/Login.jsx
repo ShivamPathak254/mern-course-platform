@@ -38,7 +38,7 @@ const Login = () => {
     <div className="login-container">
       <div className="login-wrapper">
         <div className="login-header">
-          <h2 className="login-title">Welcome Back</h2>
+          <h2 className="login-title">Welcome </h2>
           <p className="login-subtitle">Sign in to continue your journey</p>
         </div>
 
