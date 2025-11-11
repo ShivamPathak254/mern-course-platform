@@ -15,9 +15,10 @@ const Register = () => {
   e.preventDefault();
   try {
     const res = await axios.post(
-      'https://mern-course-platform-2.onrender.com/api/auth/register',
-      form
-    );
+  'https://mern-course-platform-2.onrender.com/api/auth/register',
+  form
+);
+
     alert('Registered successfully!');
     navigate('/login');
   } catch (err) {
